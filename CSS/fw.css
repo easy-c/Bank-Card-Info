@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Playfair+Display:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap");
+
+/* border */
+.br-3 {
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.br-6 {
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.br-10 {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.br-6-btn {
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.br-circle {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.btn-shape {
+  padding: 0 10px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  width: fit-content;
+}
+.b-1 {
+  border: 1px solid white;
+}
+.bt-1 {
+  border-top: 1px solid #eee;
+}
+.b-2 {
+  border: 2px solid white;
+}
+.out-l-3green {
+  outline: 3px solid var(--green-color);
+}
+.out-l-3blue {
+  outline: 3px solid var(--blue-color);
+}
+.out-l-3orange {
+  outline: 3px solid var(--orange-color);
+}
+/* border */
+
+/* padding + margin ... */
+.p-10 {
+  padding: 10px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-20 {
+  padding: 20px;
+}
+.pt-5 {
+  padding-top: 5px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+.pt-40 {
+  padding-top: 40px;
+}
+.pr-20 {
+  padding-right: 20px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pb-40 {
+  padding-top: 40px;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+.m-30 {
+  margin: 30px;
+}
+.m-40 {
+  margin: 40px;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mr-auto {
+  margin-right: auto;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.ml-auto {
+  margin-left: auto;
+}
+.ml- {
+  margin-left: 5px;
+}
+.ml-5 {
+  margin-left: 5px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+/* padding + margin ... */
+/* box model */
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block !important;
+}
+.d-flex {
+  display: flex;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* colors */
+:root {
+  --main-color: #2196f3;
+  --main-alt-color: #4fcaf3;
+  --color-first-blue: #94e5ff;
+  --secondly1-color: #94ffae;
+  --secondly1-a-color: #94ffafa1;
+  --secondly2-color: #ffae94;
+  --secondly2-alt-color: #fa9978;
+  --secondly2-a-color: #ffaf94a8;
+  --secondly3-color: #ff94e5;
+  --p-color: #888;
+  --eee-color: #eee;
+  --ccc-color: #ccc;
+}
+
+.main-c {
+  color: #2196f3;
+}
+.first-blue {
+  color: #94e5ff;
+}
+.c-white {
+  color: white;
+}
+.c-888 {
+  color: #888;
+}
+.c-blue {
+  color: #0075ff;
+}
+.c-orange {
+  color: #f59e0b;
+}
+.c-orange-20 {
+  color: rgb(245 158 11 / 20%);
+}
+.c-green {
+  color: #22c55e;
+}
+.c-red {
+  color: #f44336;
+}
+.c-twetter {
+  color: #1da1f2;
+}
+.c-facebook {
+  color: #1877f2;
+}
+.c-youtube {
+  color: #cd201f;
+}
+.c-linkedin {
+  color: #0a66c2;
+}
+.c-python {
+  color: #fdd746;
+}
+.c-yellow {
+  color: yellow;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+.bg-eee {
+  background-color: #eee;
+}
+.bg-ddd {
+  background-color: #ddd;
+}
+.bg-blue {
+  background-color: #0075ff;
+}
+.bg-orange {
+  background-color: #f59e0b;
+}
+.bg-green {
+  background-color: #22c55e;
+}
+.bg-red {
+  background-color: #f44336;
+}
+.bg-blue-20 {
+  background-color: rgb(0 117 255 / 20%);
+}
+.bg-orange-20 {
+  background-color: rgb(245 158 11 / 20%);
+}
+.bg-green-20 {
+  background-color: rgb(34 197 94 / 20%);
+}
+.bg-red-20 {
+  background-color: rgb(244 67 54 / 20%);
+}
+.bg-twetter {
+  background-color: #1da1f2;
+}
+.bg-facebook {
+  background-color: #1877f2;
+}
+.bg-youtube {
+  background-color: #cd201f;
+}
+.bg-linkedin {
+  background-color: #0a66c2;
+}
+.bg-twetter-20 {
+  background-color: rgb(29 161 242 / 20%);
+}
+.bg-facebook-20 {
+  background-color: rgb(24 119 242 / 20%);
+}
+.bg-youtube-20 {
+  background-color: rgb(255 0 0 / 20%);
+}
+.bg-linkedin-20 {
+  background-color: rgb(0 119 181 / 20%);
+}
+/* colors */
+
+/* width + height */
+.min-w-full {
+  min-width: 100%;
+}
+.max-w-full {
+  max-width: 100%;
+}
+.max-w-40 {
+  width: 40px;
+}
+.max-w-60 {
+  width: 60px;
+}
+.w-fit {
+  width: fit-content;
+}
+.w-10 {
+  width: 10%;
+}
+.w-20 {
+  width: 20%;
+}
+.w-30 {
+  width: 30%;
+}
+.w-40 {
+  width: 40%;
+}
+.w-55 {
+  width: 55%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-75 {
+  width: 75%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-90 {
+  width: 90%;
+}
+
+.full-w {
+  width: 100%;
+}
+.full-h {
+  height: 100%;
+}
+.h-screen {
+  height: 100vh;
+}
+
+/* width + height */
+/* position */
+.p-rel {
+  position: relative;
+}
+.p-abs {
+  position: absolute;
+}
+/* position */
+/* transition */
+.main-transition {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* transition */
+/* font */
+.fs-10 {
+  font-size: 10px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fs-30 {
+  font-size: 30px;
+}
+.fs-40 {
+  font-size: 40px;
+}
+.fw-100 {
+  font-weight: 100;
+}
+.fw-200 {
+  font-weight: 200;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-800 {
+  font-weight: 800;
+}
+.fw-900 {
+  font-weight: 900;
+}
+.text-lower {
+  text-transform: lowercase;
+}
+.text-upper {
+  text-transform: uppercase;
+}
+.text-capa {
+  text-transform: capitalize;
+}
+.txt-center {
+  text-align: center;
+}
+.u-line {
+  text-decoration: underline;
+}
+
+.ff-BrunoAceSC {
+  font-family: "Bruno Ace SC", cursive;
+}
+.ff-ReemKufi {
+  font-family: "Reem Kufi", sans-serif;
+}
+.ff-Teko {
+  font-family: "Teko", sans-serif;
+}
+/* font */
+/* other */
+@media (max-width: 767px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+/* other */
