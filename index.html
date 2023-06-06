@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./CSS/all.min.css"> 
+    <link rel="stylesheet"
+        href="./CSS/style.css">    
+    <link rel="stylesheet"
+        href="./CSS/fw.css">    
+    <title>Bank Card Details</title>
+</head>
+
+<body>
+    <h1 class="pageTitle p-abs">Card Details</h1>
+    <form action="">
+        <input class="fullName" type="text" placeholder="Full name">
+        <select class="cardType" name="Type">
+            <option disabled selected hidden>Select Card Type</option>
+            <option value="MasterCard">Master Card</option>
+            <option value="Visa">Visa</option>
+        </select>
+        <input class="cardNum numOnly" type="text" placeholder="Card number">
+        <select class="bankName" name="Name">
+            <option disabled selected hidden>Select Bank Name</option>
+            <option value="BankChaabi">Bank Chaabi</option>
+            <option value="CIHBank">CIH Bank</option>
+            <option value="SGMaroc">S.G Maroc</option>
+        </select>
+        <input class="expiryDate numOnly half" type="month">
+        <input class="cvv numOnly half" type="text" placeholder="CVV">
+        <input class="submit" type="submit" >
+    </form>
+    <div class="container">
+        <div class="card">
+            <div class="fName"></div>
+            <div class="cType"></div>
+            <div class="cNumber"></div>
+            <div class="bName"></div>
+            <div class="moreInfo d-flex">
+                <div class="eDate">Expriy Date: <span></span></div>
+                <div class="cvvContent">cvv: <span></span></div>
+            </div>
+            <div class="cardFor">Online Shopping</div>
+        </div>
+    </div>
+    <script src="./master.js"></script>
+</body>
+
+</html>
